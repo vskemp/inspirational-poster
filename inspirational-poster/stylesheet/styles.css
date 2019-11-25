@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.picture-frame {
+    height: 800px;
+    width: 800px;
+}
+
+.picture-frame > img {
+    width: 100%
+}
+
+.poster {
+    position: relative;
+    height: 533px;
+    width: 800px;
+}
+
+.part1, .part2 {
+    position: absolute;
+    color: #eee;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.part2 {
+    bottom: 5px;
+    color: yellow;
+    right: 2px;
+    margin-bottom: 100px;
+}
